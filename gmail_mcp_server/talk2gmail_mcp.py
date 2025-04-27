@@ -13,7 +13,7 @@ from functools import partial
 # Access your API key and initialize Gemini client correctly
 #api_key = os.getenv("GEMINI_API_KEY")
 #api_key = ""
-api_key="AIzaSyC34Fuzg13EvX5U73RVKkbt90lDYLOGVcI"
+api_key=""
 client = genai.Client(api_key=api_key)
 
 max_iterations = 3
